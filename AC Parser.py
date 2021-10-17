@@ -1,7 +1,7 @@
 import pdfplumber
 import re
 
-with pdfplumber.open(r'AC List2.pdf') as pdf:
+with pdfplumber.open(r'AC List.pdf') as pdf:
     content = []
     regs = {"pages": [], "variances": [], "regs": []}
     pages = pdf.pages
